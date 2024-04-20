@@ -10,7 +10,8 @@ const Intro =() => {
             <div className="introContent">
                <span className="hello">Hello,</span>
                 <span className="introText">I'm<span className="introName"> Ashish</span></span>
-                <span className="introPara">Aspiring Software developer with a passion for building innovative and user-friendly applications.<br/>Proficient in a variety of programming languages,frameworks, and also web development tools.<br/>Eager to make meaningful contributions within a team of seasoned developers.</span>
+                <br/>
+                <span className="introPara" style={{fontStyle:"italic"}}>I possess a deep passion for the <span className="introName">creation</span> of visually appealing <br/> and intuitively designed websites. Also I am sincerely committed to <span className="introName">continuous learning</span> and <br/> actively engaging with <span className="introName">emerging technologies</span> across various domains.</span>
                <br/>
             <Link><button className="btn">Hire me</button></Link>
             </div>
