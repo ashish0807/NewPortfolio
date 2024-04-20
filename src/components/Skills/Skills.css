@@ -1,0 +1,81 @@
+
+#skills{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.skillsTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    
+    
+
+}
+
+.skillsPara{
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 51rem;
+    padding: 0 2rem;
+
+}
+
+.skillsBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+
+}
+
+.skillsBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: #f3165c;
+}
+
+.skillsBarImg{
+    object-fit: cover ;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+.skillsBarText{
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width:720px) {
+   .skillsBarText>p{
+    font-size: 2vw;
+   }    
+}
+
+
+@media screen and (max-width:480px) {
+    .skillsBarText>p{
+     font-size: 3vw;
+    }    
+    .skillsBarImg{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .skillsBarText>h2{
+        font-size: 5vw;
+    }
+
+ }

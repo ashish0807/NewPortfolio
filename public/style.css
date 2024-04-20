@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    background: #080808;
+    color: #fff;
+    overflow: hidden;
+    overflow-y: scroll;
+}

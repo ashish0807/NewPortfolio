@@ -1,0 +1,48 @@
+#tech{
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.techTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.techPara{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.techImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 55rem;
+}
+
+.techImg{
+    object-fit: cover;
+    height: 5rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.techImg:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
