@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './Navbar.css';
 import logo from '../../assets/logo-transparent.png';
 import menu from '../../assets/menu.png';
-import cv from '../../assets/ashish_sde_cv1.pdf';
+import cv from '../../assets/Resume.pdf';
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);

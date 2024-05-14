@@ -3,6 +3,7 @@ import './Projects.css';
 import news from  "../../assets/news.jpg";
 import ecommerce from "../../assets/ecommerce.jpg";
 import weather from "../../assets/weather.jpg";
+import medico from "../../assets/Medico.png";
 
 const Projects = () => {
   return (
@@ -22,6 +23,10 @@ const Projects = () => {
       <figure>
       <img src={weather} alt="Weather" className='worksImg' />
       <figcaption>Weather App</figcaption>
+      </figure>
+      <figure>
+      <img src={medico} alt="MedicalHealth" className='worksImg' />
+      <figcaption>Medical Health Recommendation</figcaption>
       </figure>
       </div>
 
