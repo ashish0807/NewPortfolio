@@ -59,8 +59,10 @@
 .links{
     display: flex;
     flex-wrap: wrap;
-    background-color: #fff;
+    align-items: center;
+    background-color: #484646;
     border-radius: 12px;
+    justify-content: center;
 
 }
 

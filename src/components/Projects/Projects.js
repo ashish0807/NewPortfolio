@@ -1,16 +1,19 @@
 import React from 'react';
+// import Slider from "react-slick";
 import './Projects.css';
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 import news from  "../../assets/news.jpg";
 import ecommerce from "../../assets/ecommerce.jpg";
 import weather from "../../assets/weather.jpg";
 import medico from "../../assets/Medico.png";
 
 const Projects = () => {
+
   return (
     <section id='works'>
 
     <h2 className='worksTitle'>My Projects</h2>
-
       <div className='worksImgs'>
       <figure>
       <img src={news} alt="News" className='worksImg' />
@@ -29,39 +32,14 @@ const Projects = () => {
       <figcaption>Medical Health Recommendation</figcaption>
       </figure>
       </div>
-
-    {/* <div className="worksImgs">
-        <div className="worksImg">
-          <img src={news} alt=''/>
-          <div className="layer">
-            <h3>News Website</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam quia maiores illum commodi asperiores odio aut? Consectetur fugit optio unde.</p>
-            <a href="/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-          </div>
-        </div>
-        <div className="worksImg">
-          <img src={ecommerce} alt=''/>
-          <div className="layer">
-            <h3>Weather App</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam quia maiores illum commodi asperiores odio aut? Consectetur fugit optio unde.</p>
-            <a href="/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-          </div>
-        </div>
-        <div className="worksImg">
-          <img src={weather} alt=''/>
-          <div className="layer">
-            <h3>E-commerce = Website</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam quia maiores illum commodi asperiores odio aut? Consectetur fugit optio unde.</p>
-            <a href="/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-          </div>
-        </div>
-      </div> */}
     
-    <button className='worksBtn'>
+    {/* <button className='worksBtn'>
     See more
-    </button>
+    </button> */}
     </section>
   );
 }
+
+
 
 export default Projects;

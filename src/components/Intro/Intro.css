@@ -72,9 +72,14 @@
     .bg{
      right: -10vw;
     }
+    
+    #id{
+     margin-top: -2rem;
+    }
 
     .introContent{
         font-size: 10vw;
+        margin-top: 9rem;
     }
 
     .hello{
