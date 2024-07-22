@@ -1,8 +1,5 @@
 import React from 'react';
-// import Slider from "react-slick";
 import './Projects.css';
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 import news from  "../../assets/news.jpg";
 import ecommerce from "../../assets/ecommerce.jpg";
 import weather from "../../assets/weather.jpg";
