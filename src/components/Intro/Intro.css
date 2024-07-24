@@ -74,7 +74,7 @@
 
 @media screen and (max-width:840px){
     .bg{
-     right: -10vw;
+     right: -10vw; 
     }
     
     #id{
@@ -89,11 +89,17 @@
     .hello{
         font-size: 4.5vw;
     }
+
+    .introPara .introName{
+        font-weight: bold;
+    }
+
 }
 
 
 @media screen and (max-width:480px){
     .bg{
-     right: -20vw;
+      right: -20vw;
     }
+
 }
