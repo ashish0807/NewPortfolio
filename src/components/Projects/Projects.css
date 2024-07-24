@@ -48,7 +48,7 @@
 .worksImg:hover{
     cursor: pointer;
     -webkit-transform: scale(1.3);
-	transform: scale(1.3);
+	transform: scale(1.1);
 }
 
 .worksBtn{
