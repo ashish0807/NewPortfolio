@@ -36,7 +36,7 @@ const Projects = () => {
       </a> */}
       <br/>
       <br/>
-      <figcaption>LetsChat-Realtime Chat-App</figcaption>
+      <figcaption>LetsChat-Messenger</figcaption>
       </figure>
       <figure>
       <img src={ecommerce} alt="Ecommerce" className='worksImg' />
