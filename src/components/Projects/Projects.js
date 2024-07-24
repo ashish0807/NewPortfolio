@@ -16,13 +16,25 @@ const Projects = () => {
       <figure>
       <img src={chat} width="260px" alt="Letschat" className='worksImg'/>
       <br/>
+      <span className='linkCode'>
       <a href="https://letschat-nfoy.onrender.com/login" target='_blank'  rel="noopener noreferrer">
+      <FaExternalLinkAlt size={20} color='#f3165c' cursor="pointer" />
+      </a>
+      <a href="https://github.com/ashish0807/Letschat" target='_blank'  rel="noopener noreferrer">
+      <FaGithub size={20} color='#f3165c' cursor="pointer" />
+      </a>
+
+      </span>
+
+
+      {/* <a href="https://letschat-nfoy.onrender.com/login" target='_blank'  rel="noopener noreferrer">
       <FaExternalLinkAlt size={20} color='#f3165c' cursor="pointer" />
       </a>
       {" "}
       <a href="https://github.com/ashish0807/Letschat" target='_blank'  rel="noopener noreferrer">
       <FaGithub size={20} color='#f3165c' cursor="pointer" />
-      </a>
+      </a> */}
+      <br/>
       <br/>
       <figcaption>LetsChat-Realtime Chat-App</figcaption>
       </figure>
@@ -30,6 +42,7 @@ const Projects = () => {
       <img src={ecommerce} alt="Ecommerce" className='worksImg' />
       <br/>
       <FaExternalLinkAlt size={20} color='#f3165c' cursor="pointer" />
+      <br/>
       <br/>
       <figcaption>Ecommerce Platform</figcaption>
       </figure>
@@ -40,11 +53,16 @@ const Projects = () => {
       <figure>
       <img src={medico} alt="MedicalHealth" className='worksImg' />
       <br/>
+
+      <span className='linkCode'>
+      {/* <a href="#" target='_blank'  rel="noopener noreferrer">
       <FaExternalLinkAlt size={20} color='#f3165c' cursor="pointer" />
-      {" "}
+      </a> */}
       <a href="https://github.com/ashish0807/Medico_health_app" target='_blank'  rel="noopener noreferrer">
       <FaGithub size={20} color='#f3165c' cursor="pointer" />
       </a>
+      </span>
+      <br/>
       <br/>
       <figcaption>Medical Health Recommendation</figcaption>
       </figure>

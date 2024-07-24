@@ -61,6 +61,10 @@
     color: white;
 }
 
+.linkCode a+a{
+    margin-left: 20px;
+}
+
 
 
 @media screen and (max-width: 585px) {
