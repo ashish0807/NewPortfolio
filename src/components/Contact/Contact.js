@@ -1,9 +1,9 @@
 import React ,{useRef} from 'react';
 import './Contact.css';
-import instagram from '../../assets/instagram.png';
-import twitter from '../../assets/twitter.png';
-import linkedin from '../../assets/linkedin.png';
-import github from '../../assets/github.png';
+// import instagram from '../../assets/instagram.png';
+// import twitter from '../../assets/twitter.png';
+// import linkedin from '../../assets/linkedin.png';
+// import github from '../../assets/github.png';
 
 import { useForm, ValidationError } from '@formspree/react';
 
@@ -50,12 +50,12 @@ const Contact = () => {
 
     </form>
 
-      <div className='links'>
+      {/* <div className='links'>
           <a href="https://www.instagram.com/carryon_tech/" target="_blank" rel="noreferrer"><img src={instagram} alt="" className='link' /></a>
           <a href="https://www.linkedin.com/in/ashishkshrma/" target="_blank" rel="noreferrer" ><img src={linkedin} alt="" className='link' /> </a>
           <img src={twitter} alt="" className='link' />
           <a href="https://github.com/ashish0807" target="_blank" rel="noreferrer" ><img src={github} alt="" className='link' /></a>   
-        </div>
+        </div> */}
 
     </div>
    </section>
